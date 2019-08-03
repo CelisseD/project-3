@@ -45,11 +45,11 @@ export default class SearchPage extends Component {
         console.log(`Cause Search: ${this.state.search_cause}`);
         console.log(`Organization Search: ${this.state.search_org}`);
 
-        this.setState = {
+        this.setState({
             search_brand: "",
             search_cause: "",
             search_org: ""
-        }
+        })
     }
 
     render() {
