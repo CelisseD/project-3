@@ -9,7 +9,7 @@ const BrandSchema = new Schema({
         type: {String},
     },
     cause: [String],
-    problematic: Boolean
+    problematic: Boolean,
     link: {
         type: String
     }
