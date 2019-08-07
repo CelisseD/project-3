@@ -2,13 +2,13 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import LandingPage from "./components/landing";
-import LoginPage from "./components/login";
-import ProfilePage from "./components/profile";
-import SearchPage from "./components/search";
-import ResultsPage from "./components/results";
-import DashboardPage from "./components/dashboard";
-import FavoritesPage from "./components/favorites";
+import LandingPage from "./components/Landing/landing";
+import LoginPage from "./components/Login/login";
+import ProfilePage from "./components/Profile/profile";
+import SearchPage from "./components/Search/search";
+import ResultsPage from "./components/Results/results";
+import DashboardPage from "./components/Dashboard/dashboard";
+import FavoritesPage from "./components/Favorites/favorites";
 
 import logo from "./logo.svg";
 
