@@ -55,16 +55,17 @@ export default class SearchPage extends Component {
     render() {
         return(
             <div style={{marginTop:20}}>
-                <h4>Search for a Brand, Organization, or Cause</h4>
+                <h4>Search a Brand to the Database</h4>
                 <form onSubmit={this.onSubmit}>
                     <div className="form-group">
-                        <label>Search Brand: </label>
+                        <label>Brand Name: </label>
                         <input  type="text"
                                 className="form-control"
-                                value={this.state.search_brand}
-                                onChange={this.onChangeSearchBrand}
+                                value={this.state.brand_name}
+                                onChange={this.onChangeAddBrand}
                                 />
                     </div>
+                    
                     <div className="form-group">
                         <label>Search Cause: </label>
                         <input  type="text"

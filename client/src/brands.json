@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Cabela's Inc.",
+        "description": "Retail Store",
+        "logo": "../client/build/static/media/logo_images/cabelas.png",
+        "link": "https://www.cabelas.com",
+        "supporting": "Human Trafficking, Conflict Minerals",
+        "conflicting": "NRA",
+        "reason": "Cabela's Inc makes donations to the National Rifle Association (NRA) Foundation and is listed on the NRA website as a Friend of the NRA."
+    },
+    {
+        "id": 2,
+        "name": "FedEx",
+        "description": "Shipping Solutions",
+        "logo": "../client/build/static/media/logo_images/fedex.jpg",
+        "link": "https://fedex.com",
+        "supporting": "United Way, Salvation Army",
+        "conflicting": "NRA, American Legislative Exchange Council (ALEC)",
+        "reason": "While FedEx is a contributor to the United Way and Salvation Army charities, they also offer discounts to members of the National Rifle Association (NRA), and contribute to the American Legislative Exchange Council (ALEC). ALEC supports Florida's Stand Your Ground law, and does not support animal rights."
+    },
+    {
+        "id": 3,
+        "name": "Lifelock Inc.",
+        "description": "Identity Theft Protection",
+        "logo": "../client/build/static/media/logo_images/lifelock.jpg",
+        "link": "https://lifelock.com",
+        "supporting": "",
+        "conflicting": "NRA",
+        "reason": "LifeLock by Symantec Corp is listed as a benefit to NRA members."
+    },
+    {
+        "id": 4,
+        "name": "Apple Inc.",
+        "description": "Consumer Electronics",
+        "logo": "../client/build/static/media/logo_images/apple.png",
+        "link": "https://apple.com",
+        "supporting": "Accessibility, Education, Environment, Inclusion & Diversity",
+        "conflicting": "",
+        "reason": "Apple Inc. lists Accessibility, Education, Environment, and Inclusion & Diversity among it's core values. By creating products with key accessibility features, supporting educational endeavors through their connectED initiative, their continued goal to leave the earth better than they found it through environmental initiatives, and their committment to inclusive hiring practices, this is a company that uses it's power for the good."
+    },
+    {
+        "id": 5,
+        "name": "Facebook",
+        "description": "Social Media",
+        "logo": "../client/build/static/media/logo_images/facebook.png",
+        "link": "https://facebook.com",
+        "supporting": "",
+        "conflicting": "Privacy",
+        "reason": "Facebook has had a host of privacy breaches, including sharing user data of over 87 million users to international propoganda distributor, Cambridge Analytica in 2015."
+    },
+    {
+        "id": 6,
+        "name": "Macy's Inc.",
+        "description": "Department Store",
+        "logo": "../client/build/static/media/logo_images/macys.png",
+        "link": "https://macys.com",
+        "supporting": "United Way, Salvation Army",
+        "conflicting": "Women's Rights, Income Equality",
+        "reason": "Macy's is a charitable donor for organizations such as United Way and Salvation Army. However, they do not support income equality for women, encouraging a veto of pro-women legislation in Texas in 2013."
+    }
+]

@@ -8,11 +8,13 @@ const BrandSchema = new Schema({
     logo: {
         type: {String},
     },
-    cause: [String],
-    problematic: Boolean,
     link: {
         type: String
-    }
+    },
+    supporting: [String],
+    conflicting: [String],
+    reason: String,
+    source: 
 });
 
 const Brand = mongoose.model("Brand", BrandSchema);
