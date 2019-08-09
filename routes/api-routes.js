@@ -3,7 +3,7 @@ const axios = require("axios");
 const db = require("../models");
 const path = require("path");
 
-// connecting to books api
+// connecting to brands api
 module.exports = function(app) {
     app.get("/api/brands", (req, res) => {
         db.Brands.find().then(
